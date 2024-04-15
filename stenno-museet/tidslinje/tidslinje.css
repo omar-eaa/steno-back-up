@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+p1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 3%;
+ 
+}
+.text-kopper{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1,5rem;
+    margin-top: 6%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+img {
+    width: 300px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 20px; /* Add margin */
+    margin-left: 50%;
+}
+
+.covid-19-body{
+    background-color: white;
+}
+
+.covid-overskrift{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: thin;
+        font-size: 4rem;
+        text-align: center;
+}
+
+.covid-underskrift{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: thin;
+        font-size: 2rem;
+        text-align: center;
+}
+
+.covid-artikel{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: thin;
+text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.lena{
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    left: -12%;
+}
+
+
+
+
+.kopper-img{
+    width: auto; /* Set width */
+    height: 40vh; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */   
+    margin-top: 6%;
+}
+
+.kopper-section{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+
+
+
+/* pesten styling 👇 */
+
+.pest-section{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pesten-h1{
+    font-size: 4rem;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.tekst-pest{
+   width: 40%;
+   margin-left: 20%;
+   margin-top: 5%;
+}
+.tekst-pest p {
+    font-size: 1.5rem;
+    height: 33%;
+    width: 90%;
+    margin-top: 0;
+}
+.pest-section img{
+    width: 40vh;
+    height: auto;
+    margin-left: 2%; 
+    margin-top: 3%; 
+
+}
+
